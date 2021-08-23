@@ -8,13 +8,21 @@
 <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
 <style>
     body {
-            background-image: url(https://vn-live-01.slatic.net/shop/d7c127ef1ca75fe3f1c0f41de7b6486e.jpeg);
+            background-image: url(https://img1.kienthucvui.vn/uploads/2021/01/09/hinh-nen-powerpoint-don-gian_042247746.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: 100% 100%;
     }
     div{
-        
+        margin-left: 20%;
+        border-width: 15px;
+    }
+    h1{
+        margin-left: 30%;
+    }
+    table{
+        height: inherit;
+        width: 80%;
     }
  
 </style>
@@ -33,7 +41,7 @@
         
     </tr>
     <tr>
-        <a class="btn_index" href="/insert"><input type="submit" id="btn" value="Add"></a> 
+        <a style="margin-left: 33%;" class="btn_index" href="/insert"><input type="submit" id="btn" value="Add New Product"></a> 
     </tr>
     {{#each products}} 
     <tr>
@@ -45,10 +53,11 @@
         <td class="name">{{description}}</td>
         <td class="btn">
         <a class="btn_index" href="/delete?id={{_id}}"><input type="submit" id="btn" value="Delete"></a>
+        <a class="btn_index" href="/edit?id={{_id}}"><input type="submit" id="btn" value="Edit Product"></a>
         </td> 
     </tr>  
 
-    
+
         {{/each}}
 </table>
 </div>
