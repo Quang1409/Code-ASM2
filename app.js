@@ -58,5 +58,5 @@ app.post('/doInsert',async function (req,res){
 
 
 var server = app.listen(process.env.PORT||5000,function(){
-    console.log("Server is running...");
+    console.log("Server is running on PORT 5000");
 })
