@@ -47,6 +47,11 @@ app.post('/doInsert',async function (req,res){
     let dbo = client.db("ASM2");
     let name = req.body.txtName;
     let price = req.body.txtPrice;
+    if(price >=1000){
+        console.log("không được nhập giá trị lớn hơn 1000");
+        res.render("insert", {errorMsg: 'Giá phải nhỏ hơn 1000'})
+        return;
+    }
     let amount = req.body.txtAmount;
     let description = req.body.txtDescription;
     let newProduct = {name : name, price : price, description:description,amount:amount};
