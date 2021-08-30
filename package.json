@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zedkillerking/CodeASM2.git"
+    "url": "git+https://github.com/Quang1409/Code-ASM2"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zedkillerking/CodeASM2/issues"
+    "url": "https://github.com/Quang1409/Code-ASM2/issues"
   },
   "homepage": "https://github.com/zedkillerking/CodeASM2#readme",
   "dependencies": {
