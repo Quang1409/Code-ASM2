@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Quang1409/Code-ASM2/issues"
   },
-  "homepage": "https://github.com/zedkillerking/CodeASM2#readme",
+  "homepage": "https://github.com/Quang1409/Code-ASM2#readme",
   "dependencies": {
     "consolidate": "^0.16.0",
     "express": "^4.17.1",
